@@ -1,4 +1,4 @@
--- Crear una base de datos llamada películas. Tabla creada con dbeaver.
+-- Crear una base de datos llamada películas. Base de datos creada con dbeaver.
 create database peliculas;
 
 -- Tablas creadas con dbeaver
