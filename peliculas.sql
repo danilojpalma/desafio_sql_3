@@ -1,3 +1,22 @@
+-- Crear una base de datos llamada películas. Tabla creada con dbeaver.
+create database peliculas;
+
+-- Tablas creadas con dbeaver
+CREATE TABLE peliculas (
+	id int4 NULL,
+	"Pelicula" varchar(64) NULL,
+	"Año estreno" int4 NULL,
+	"Director" varchar(50) NULL
+);
+
+CREATE TABLE reparto (
+	id_pelicula int4 NULL,
+	actor varchar(50) NULL
+);
+
+-- Cargar ambos archivos a su tabla correspondiente.
+-- Archivo peliculas.csv y reparto.csv cargados con dbeaver.
+
 -- Obtener el ID de la película “Titanic”.
 select id from peliculas where "Pelicula" = 'Titanic';
 
